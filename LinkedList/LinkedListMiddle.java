@@ -35,7 +35,7 @@ NodeMiddle head;
 			last.next=new_node;
 			new_node.next=indexNode;
 		}
-	}
+	} 
 	
 	public void insertLast(int data){
 		NodeMiddle new_node=new NodeMiddle();
