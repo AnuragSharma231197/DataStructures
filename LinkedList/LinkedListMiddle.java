@@ -3,7 +3,6 @@ import java.util.*;
 public class LinkedListMiddle{
 
 NodeMiddle head;	
-static Scanner scan;
 	
 	public LinkedListMiddle(NodeMiddle headNode){
 		this.head=headNode;
@@ -61,7 +60,7 @@ static Scanner scan;
 	}
 	
 public static void main(String []args){
-	scan= new Scanner(System.in);
+	Scanner scan= new Scanner(System.in);
 	System.out.println("Enter the response you want to enter: 1.Insert at Begin 2.Insert at Mid 3.Insert at Last");
 	//int response=scan.nextInt();
 	NodeMiddle headNode=new NodeMiddle();
